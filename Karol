@@ -1,0 +1,94 @@
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mensagem de amor</title>
+	<style>
+		body {
+			background-color: white; /* Define o fundo branco */
+		}
+
+		.mensagem-container {
+			position: absolute; 
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%,-50%); /* Centraliza a mensagem */
+			text-align: center;
+		}
+		
+		.mensagem {
+			font-size: 90px; /* Define o tamanho da fonte */
+			font-family: "Segoe Script", cursive; /* Define a fonte */
+			color: white; /* Define a cor do texto */
+			display: inline-block;
+			padding: 30px 50px;
+			background-color: red; /* Define o fundo vermelho */
+			border-radius: 10px; /* Define um raio de borda arredondado */
+			box-shadow: 0 0 10px white; /* Define uma sombra branca */
+		}
+
+		.coracao {
+			font-size: 50px;
+			color: red; /* Define a cor do coração */
+			position: absolute;
+		}
+		
+		.coracao-1 {
+			top: 10%;
+			left: 10%;
+			text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white; /* Define uma sombra para os corações */
+		}
+
+		.coracao-2 {
+			top: 20%;
+			right: 5%;
+			text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white;
+		}
+
+		.coracao-3 {
+			top: 40%;
+			left: 5%;
+			text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white;
+		}
+
+		.coracao-4 {
+			top: 70%;
+			right: 10%;
+			text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white;
+		}
+
+		.coracao-5 {
+			top: 90%;
+			left: 15%;
+			text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white;
+		}
+
+		.coracao-6 {
+			top: 15%;
+			left: 60%;
+			text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white;
+		}
+
+		/* Mais corações aqui... */
+		
+	</style>
+</head>
+<body>
+	<div class="mensagem-container">
+		<span class="mensagem">Karol, você é a coisinha mais linda do mundo ♥</span> <!-- Define a mensagem -->
+	</div>
+
+	<!-- Define os corações -->
+	<span class="coracao coracao-1">&#x2665;</span>
+	<span class="coracao coracao-2">&#x2665;</span>
+	<span class="coracao coracao-3">&#x2665;</span>
+	<span class="coracao coracao-4">&#x2665;</span>
+	<span class="coracao coracao-5">&#x2665;</span>
+	<span class="coracao coracao-6">&#x2665;</span>
+
+	<!-- Mais corações aqui... -->
+
+</body>
+</html>
+```
